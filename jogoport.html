@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Acerte a Letra</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="esstsimu.css" />
+<script language="JavaScript">
+	var cont=0;
+		function Verifica1(){
+			if (document.questao1.resposta[3].checked == true) {
+				cont++;
+				alert('Acertou miseravi, é o cão mesmo esse serumaninho')
+			}
+			else{
+				cont==cont;
+				alert('IIIIEEEEIII, errou, vai estudar macho')
+			}
+		}
+	</script>
+</head>
+<body>
+<div id="objetos">
+
+<br>
+	<form name="questao1">
+	<center><h4>Nível 01</h4></center>
+	<center>
+ 		<div class="videos">
+ 			<center>
+                <video id="el" controls height="auto" src="questao1.mp4" >
+                </video>
+            </center>
+ 		</div>
+ 		</center>
+<br>
+<h6>A Música de Pablo "Porque homem não chora", é marcada por:</h6><br>
+
+	<input name="resposta" type="radio" value="">a) Hipérboles, como no trecho "Vou te deixar".<br>
+	<input name="resposta" type="radio" value="">b) Prosopopéias, como no trecho "A mala já está la fora".<br>
+	<input name="resposta" type="radio" value="">c) Antíteses, como no trecho "Você que machucou meu coração".<br>
+	<input name="resposta" type="radio" value="">d) Hipérboles, identificadas em vários trechos, como "Você que destruiu a minha vida".<br>
+	<br>
+	</form>
+	<br>
+	<center><a href="jogoport2.html"><input class="botao" onclick="Verifica1();" type="button" value="Arriscar"></a></center>
+	<br>
+	</div>
+</body>
+</html>

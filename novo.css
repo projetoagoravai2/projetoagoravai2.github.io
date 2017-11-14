@@ -1,0 +1,269 @@
+#objetos{
+	margin-top:2%;
+	background-color: white;
+	margin-right:1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+body{
+	background-color:teal;
+}
+img{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+/*menu*/
+nav{
+
+	width: 960px;
+	height: 31px;
+	background-color: white;
+	float:center;
+}
+ul{
+	text-decoration:none;
+	list-style: none;
+}
+ul .m{
+	display: block;
+	text-decoration: none;
+	font-family: verdana;
+	font-weight: lighter;
+	float: left;
+	padding-top: 2px;
+	color: black;
+	padding: 10px 25px;
+}
+.m:hover{
+	transition-duration: 0.4s;
+	background-color: teal;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: white;
+}
+
+.divide{
+	border-size: 20px;
+	border-color: teal;
+	color: teal;
+}
+
+#moldura{
+
+	width: 600px;
+	height: 400px;
+	background-color: #eeeeee;
+	margin-left: 4%;
+	transition: background-image 1s;
+}
+
+input{
+	margin-left: 5%;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+}
+
+#esq{
+	margin-left: 86%;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+}
+#ap{
+	padding-left: 40%;
+}
+#n1{
+	margin-left: 2%;
+}
+h4{
+	font-size: 20px; 
+	font-family: verdana;
+	color: teal;
+}
+h5{
+	text-indent: 30px;
+	font-family: verdana;
+	font-size: 15px;
+	color: black;
+	text-align: justify-all;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+a{
+	text-decoration: none;
+}
+#ap{
+    float:left;
+    margin-left:70px;
+    margin-bottom:70px;
+	
+	}
+
+.videos{
+	width: 720px;
+	height: 559px;
+	background-image: url("pc.png");
+}	
+#el{
+	margin-top: 30px;
+	height: 326px;
+	width: 670px;
+}
+#portas{
+	color: teal;
+}
+#portas:hover{
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+}
+#portas:visited{
+	color: teal;
+}
+button{
+	background-color: teal;
+	color: white;
+	width: 100px;
+	height: 40px;
+	position: center;
+	cursor: pointer;
+	float: right;
+	margin-right: 2%;
+	transition-duration: 0.6s;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	border-color: teal;
+	border-size: 5px;
+	border-radius: 10px;
+}
+#minhaDiv{
+	display: none;
+}
+#redacao{
+	display: none;
+}
+#mate{
+	width: 619px;
+	height: 400px;
+	overflow: auto;
+	margin-left: 4%;
+}
+#imagem{
+	margin: 0 0 0 0;
+}
+.imgExpande {
+list-style: none;
+padding: 0;
+}
+.imgExpande li {
+display: inline;
+}
+.imgExpande li img {
+ /* Aqui é o tamanho da imagem */
+margin-left: 10px; /* Espaço entre as imagem */
+-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+-moz-transition: 1s all ease; /* Firefox */
+-o-transition: 1s all ease; /* Opera */
+}
+.imgExpande li img:hover {
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+}
+.z{
+	margin: 10px 10px 10px 10px;
+}
+table{
+	align:center;
+}
+h6{
+	font-family: verdana;
+	font-size: 17px;
+	color: black;
+	margin: 1% 1% 1% 1%;
+}
+h3{
+	font-family: verdana;
+	font-size: 15px;
+	color: black;
+	margin: 1% 1% 1% 1%;
+}
+#botao{
+ border-radius:10px;
+}
+#estudas{
+	width: 700px;
+	height: 50px;
+	background-color: teal;
+	color: white;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#estudas:hover{
+	border-radius: 10px;
+	background-color: white;
+	border-color: teal;
+	color: black;
+}
+#plano{
+	width: 700px;
+	height: 50px;
+	background-color: teal;
+	color: white;
+	transition: 0.4s;
+	cursor: pointer;
+}
+#plano:hover{
+	border-radius: 10px;
+	background-color: white;
+	border-color: teal;
+	color: black;
+}
+.imgExpande2 {
+list-style: none;
+padding: 0;
+}
+.imgExpande2 li {
+display: inline;
+}
+.imgExpande2 li img {
+ /* Aqui é o tamanho da imagem */
+margin-left: 10px; /* Espaço entre as imagem */
+-webkit-transition: 0.2s all ease; /* É para pega no Chrome e Safira */
+-moz-transition: 1s all ease; /* Firefox */
+-o-transition: 1s all ease; /* Opera */
+}
+.imgExpande2 li img:hover {
+-moz-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+-o-transform: scale(1.5);
+}
+#scroll {
+  width:600px;
+  height:1022px;
+  background-image: url('r0.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow:auto;
+}
+#plano{
+	width: 700px;
+	height: 50px;
+	background-color: teal;
+	color: white;
+	transition: 0.4s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+#plano:hover{
+	border-radius: 10px;
+	background-color: white;
+	border-color: teal;
+	color: black;
+}
+

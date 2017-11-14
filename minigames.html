@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Mini Games</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="novo.css">
+	<script type="text/javascript">
+		function iniciaSlider(){
+			max=4;
+			min=1;
+			fi=min;
+			carregaFoto("f1.jpg");
+		}
+
+		function carregaFoto(foto){
+			document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+		}
+
+		function prox(){
+			fi++;
+			if (fi>max) {
+				fi=min;
+			}
+			carregaFoto("f"+fi+".jpg");
+		}
+
+		function ant(){
+			fi--;
+			if (fi<min) {
+				fi=max;
+			}
+			carregaFoto("f"+fi+".jpg");
+		}
+	</script>
+    <script type="text/javascript">
+        function Mudarestado(el) {
+    var display = document.getElementById(el).style.display;
+    if(display == "none")
+        document.getElementById(el).style.display = 'block';
+    else
+        document.getElementById(el).style.display = 'none';
+    
+        }
+    </script>
+</head>
+<body onload="iniciaSlider()">
+
+
+	
+<div id="objetos">
+<img src="agoravai.png" id="title">
+<nav>
+        	<ul>
+            	<a class="m" href="index.html"><li>Home</li></a>
+            	<a class="m" href="Quemsomos.html"><li>Quem somos</li></a>
+                <a class="m" href="minigames.html"><li>Mini Games</li></a>
+			</ul>
+        </nav>
+ 		<hr size="7px" color="teal">
+         <a href="localhost:50001"><table>
+            <tr>
+                <td>
+                    <img src="jogoport.png" width="200px" height="200px">
+                </td>
+                <td>
+                    <h4>Acerte a letra</h4><br>
+                    Escute a música que está no vídeo e resolva a questão, os conteúdos são Funções de Linguagem, Figuras de Linguagem e algumas Escolas Literárias. É importante que você veja todo o vídeo, pois o conteúdo necessário pode estar em qualquer lugar. Bom Jogo!
+                </td>
+            </tr>
+        </table></a>
+    
+        <br>
+        <br>
+        <br>
+ </div>
+
+</body>
+</html> 
