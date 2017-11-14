@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Estudar</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="novo.css" />
+	<script type="text/javascript">
+		function iniciaSlider(){
+			max=4;
+			min=1;
+			fi=min;
+			carregaFoto("f1.jpg");
+		}
+
+		function carregaFoto(foto){
+			document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+		}
+
+		function prox(){
+			fi++;
+			if (fi>max) {
+				fi=min;
+			}
+			carregaFoto("f"+fi+".jpg");
+		}
+
+		function ant(){
+			fi--;
+			if (fi<min) {
+				fi=max;
+			}
+			carregaFoto("f"+fi+".jpg");
+		}
+	</script>
+    <script type="text/javascript">
+        function Mudarestado(el) {
+    var display = document.getElementById(el).style.display;
+    if(display == "none")
+        document.getElementById(el).style.display = 'block';
+    else
+        document.getElementById(el).style.display = 'none';
+        }
+    </script>
+</head>
+<body onload="iniciaSlider()">
+
+
+	
+<div id="objetos">
+<img src="agoravai.png" id="title">
+<nav>
+        	<ul>
+            	<a class="m" href="new.html"><li>Home</li></a>
+            	<a class="m" href="Quemsomos.html"><li>Quem somos</li></a>
+                <a class="m" href="redacao.html"><li>Estudar</li></a>
+                <a class="m" href="simulados.html"><li>Simulados</li></a>
+                <a class="m" href="minigames.html"><li>Mini Games</li></a>
+                <a class="m" href="multimidia.html"><li>Multimídia</li></a>
+			</ul>
+        </nav>
+ 		<hr size="7px" color="teal">
+        <br>
+        <br>
+        <center>
+        <table>
+	<tr>
+	<td>
+		<ul class="imgExpande">
+
+			<li><a href="matematica.html" target="_blank"><img src="matematica.png" title="Estude Matemática!" class="z" width="300px" height="450px" /></a></li>
+			<li><a href="portugues.html" target="_blank"><img src="portugues.png" title="Estude Português!" class="z" width="300px" height="450px" /></a></li>   
+			<li><a href="oficina.html" target="_blank"><img src="redacao.png" title="Dicas de Redação!" class="z" width="300px" height="450px" /></a></li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	</center>
+	<br>
+	<br>
+ </div>
+
+</body>
+</html> 
